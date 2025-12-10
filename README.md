@@ -168,11 +168,4 @@ If this repo helped you, please ⭐ star the GitHub repo & share the video!
 
 ---
 
-# 🔗 Follow Me  
-**LinkedIn:** https://www.linkedin.com/in/theshubhamgour  
-**Instagram:** https://instagram.com/theshubhamgour  
-**Twitter/X:** https://twitter.com/theshubhamgour  
-
----
-
 # 🔥 Let’s Master DevOps Together!  
