@@ -13,7 +13,12 @@ restart the jenkins -> sudo systemctl restart jenkins
 ## webhoook configuration 
 
 ```
-you need to add /github-webhook at the end of you base URL it can be ip or domain , you will require to add this in your repos setting webhook section and content type should be applicaton/json, and in pipeline add the trigger -> "Github hook trigger for GIT Scm pooling"
+you need to add /github-webhook at the end of you base URL
+it can be ip or domain ,
+you will require to add this in your repos setting webhook
+section and content type
+should be applicaton/json, and in
+pipeline add the trigger -> "Github hook trigger for GIT Scm pooling"
 ```
 
 # 📘 About This Repository  
