@@ -1,5 +1,24 @@
 
+## Note when you are stoping and restarting instances on aws ec2 you need to re configure jenkins for ip
+
+```
+sudo su
+cd /var/lib/jenkins
+vim jenkins.model.JenkinsLocationConfiguration.xml
+
+update the ip
+restart the jenkins -> sudo systemctl restart jenkins
+
+```
+## webhoook configuration 
+
+```
+you need to add /github-webhook at the end of you base URL it can be ip or domain , you will require to add this in your repos setting webhook section and content type should be applicaton/json, and in pipeline add the trigger -> "Github hook trigger for GIT Scm pooling"
+```
+
 # 📘 About This Repository  
+
+
 This repository contains **all resources, code, pipelines, demos, notes, Jenkinsfiles, and project implementations** used in the *Jenkins Full Course in One Shot* video.
 
 If you're learning DevOps, CI/CD, or Jenkins from scratch — this repo is your **complete reference kit**.
